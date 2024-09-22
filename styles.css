@@ -1,0 +1,166 @@
+* {
+    font-family: 'Roboto';
+}
+
+body {
+    margin: 0;
+}
+header {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 60px;
+    align-items: center;
+    gap: 12px;
+}
+
+
+.logo{
+    font-size: 24px;
+    color: #F9FAF8;
+    margin-right: auto;
+    margin-left: 250px;
+}
+
+header div{
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.first-section p:last-of-type {
+    color: #E5E7EB;
+    font-size: 18px;
+    margin-right: 250px;
+}
+
+header div:last-child {
+    margin-right: 250px;
+}
+
+.first-section {
+    background-color: #1F2937;
+    height: 400px;
+}
+
+.first-section p:first-child {
+    font-size: 49px;
+    color: #F9FAF8;
+    font-weight: 900;
+    margin: 0;
+}
+
+.signup {
+    width: 110px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #3882f6;
+    color: white;
+    font-size: 16px;
+    border: 0;
+    font-weight: 900;
+}
+
+.pets {
+    position: absolute;
+    top: 110px;
+    right: 320px;
+}
+
+.second-section {
+    background-color: white;
+    height: 400px;
+}
+
+.subtitle {
+    display: flex;
+    justify-content: center;
+}
+
+.subtitle p {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.roulette {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.roulette img {
+    width: 200px;
+    height: auto;
+}
+
+
+.roulette div {
+    text-align: center;
+}
+
+.third-section {
+    background-color: #E5E7EB;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.third-section p {
+    margin-left: 400px;
+    margin-right: 400px;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.fourth-section {
+    background-color: white;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: #3882f6;
+    width: 1200px;
+    height: 200px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container p {
+    
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+.signup-two {
+    width: 110px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #3882f6;
+    color: white;
+    font-size: 16px;
+    border: 1;
+    font-weight: 900;
+    border-color: white;
+}
+
+footer {
+    background-color: black;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    color: white;
+}
